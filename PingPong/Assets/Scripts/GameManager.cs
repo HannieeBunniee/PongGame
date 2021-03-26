@@ -43,15 +43,4 @@ public class GameManager : MonoBehaviour
 		player1Paddle.GetComponent<Paddle>().Reset(); 
 		player2Paddle.GetComponent<Paddle>().Reset();
 	}
-	// Use this for initialization
-	void Start () 
-	{
-		
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		
-	}
 }

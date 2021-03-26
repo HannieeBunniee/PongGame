@@ -10,17 +10,10 @@ public class Ball : MonoBehaviour
 	public Rigidbody2D rb;
 	public Vector3 startPosition;
 
-	// Use this for initialization
 	void Start () 
 	{
 		startPosition = transform.position;
 		Launch();
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-		
 	}
 
 	public void Reset()

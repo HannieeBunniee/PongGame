@@ -13,13 +13,11 @@ public class Paddle : MonoBehaviour
 
 	private float movement;
 
-	// Use this for initialization
 	void Start () 
 	{
 		startPosition = transform.position;
 	}
 	
-	// Update is called once per frame
 	void Update () 
 	{
 		if (isPlayer1)
