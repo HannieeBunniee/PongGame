@@ -18,7 +18,7 @@ public class Paddle : MonoBehaviour
 		startPosition = transform.position;
 	}
 	
-	void Update () 
+	void FixedUpdate () 
 	{
 		if (isPlayer1)
 		{
