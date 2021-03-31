@@ -22,11 +22,11 @@ public class Paddle : MonoBehaviour
 	{
 		if (isPlayer1)
 		{
-			movement = Input.GetAxisRaw("Vertical");
+			movement = Input.GetAxisRaw("Player1");
 		}
 		else
         {
-			movement = Input.GetAxisRaw("Vertical2");
+			movement = Input.GetAxisRaw("Player2");
 		}
 
 		rb.velocity = new Vector2(rb.velocity.x, movement * speed);
